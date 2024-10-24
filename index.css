@@ -4,9 +4,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #ff0101, #0054e4);
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #ffffff;
     height: 100vh;
 }
 
@@ -27,26 +27,26 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db;
-    border-radius: 10px;
+    background-color: #0df333;
+    border-radius: 46px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .setor:hover {
     transform: scale(1.05);
-    background-color: #2980b9;
+    background-color: #010707;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 .info-panel {
     margin-top: 20px;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(114, 70, 70, 0.1);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     max-width: 450px;
@@ -58,10 +58,10 @@ h1 {
 #infoTitle {
     margin: 0;
     font-size: 22px;
-    color: #ffdd57;
+    color: #ecbe04;
 }
 
 #infoDescription {
     margin-top: 5px;
-    color: #ddd;
+    color: #fff5f5;
 }
